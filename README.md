@@ -7,3 +7,6 @@
 
 # Fleetcart Loaded and imported data template on rds and webserver
 ![alt text](https://github.com/profebass99/dynamic-website-project-commands/blob/main/flleeetcart1.png)
+
+![alt text](https://github.com/profebass99/dynamic-website-project-commands/blob/main/fleetcart2.png)
+
