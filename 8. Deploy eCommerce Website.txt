@@ -1,3 +1,4 @@
+#!bin/bash
 #1. update ec2 instance
 sudo su
 sudo yum update -y
@@ -32,7 +33,7 @@ sudo find /var/www -type f -exec sudo chmod 0664 {} \;
 
 
 #6. download the FleetCart zip from s3 to the html derectory on the ec2 instance
-sudo aws s3 sync s3://aosnotes77-fleetcart-web-files /var/www/html
+sudo aws s3 sync s3://sundaydevops-fleetcart /var/www/html
 
 
 #7. unzip the FleetCart zip folder
